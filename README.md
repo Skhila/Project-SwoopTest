@@ -1,4 +1,6 @@
-![SwoopLogo](./SwoopLogo.png)
+<p align="center">
+  <img src="SwoopLogo.png" alt="Swoop.ge Logo">
+</p>
 # Automated Testing for Swoop.ge
 
 This repository contains an automated test script for performing a series of actions on the [Swoop.ge](https://swoop.ge) website using Selenium and Java. The test script is designed to automate a series of user interactions and validations, ensuring that the website functions correctly.
