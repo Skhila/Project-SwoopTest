@@ -99,6 +99,7 @@ public class SwoopTest{
                 try {
                     String cinemaActualName = seance.findElement(By.cssSelector("p.cinema-title")).getText();
                     Assert.assertEquals(cinemaName, cinemaActualName);
+                    System.out.println("All seances are from Cavea EastPoint 🥳");
                 } catch (AssertionError ae) {
                     System.out.println("Seance out of Cavea Eastpoint detected!!!");
                     break;
@@ -219,8 +220,8 @@ public class SwoopTest{
     }
 
 //    Quit Driver
-//    @AfterTest
-//    public void tearDown() {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void tearDown() {
+        driver.quit();
+    }
 }
