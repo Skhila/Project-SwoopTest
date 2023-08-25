@@ -219,8 +219,8 @@ public class SwoopTest{
     }
 
 //    Quit Driver
-    @AfterTest
-    public void tearDown() {
-        driver.quit();
-    }
+//    @AfterTest
+//    public void tearDown() {
+//        driver.quit();
+//    }
 }

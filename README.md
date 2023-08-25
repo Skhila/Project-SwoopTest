@@ -32,7 +32,7 @@ To run the automated test, follow these steps:
 
 1. Open the `testNG.xml` file in IntelliJ IDEA.
 
-2. Right-click within the file and select "Run 'SwoopAutomationTest'".
+2. Right-click within the file and select "Run 'testNG.xml'".
 
 3. The test will open a Chrome browser, navigate to the [Swoop.ge](https://swoop.ge) website, and perform a series of actions as described in the task.
 
